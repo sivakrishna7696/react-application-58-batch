@@ -1,8 +1,11 @@
 import React from 'react'
 
-function ContactUs() {
+function ContactUs(props) {
+    const {carName,model} = props;
   return (
-    <div>ContactUs</div>
+    <div>
+        <h2>The car Name is {carName} and the model is {model}</h2>
+    </div>
   )
 }
 

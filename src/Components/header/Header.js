@@ -24,6 +24,12 @@ function Header() {
           <Link to="/listandkeys" className="nav-link">Listandkeys</Link>
         </li>
         <li className="nav-item">
+          <Link to="/complifecycle" className="nav-link">Componentlifecycle</Link>
+        </li>
+        <li className="nav-item">
+          <Link to="/pagination" className="nav-link">Pagination</Link>
+        </li>
+        <li className="nav-item">
           <Link to="/contactus" className="nav-link">ContactUs</Link>
         </li>
         <li className="nav-item">

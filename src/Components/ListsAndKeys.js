@@ -1,4 +1,5 @@
 import React from 'react'
+import ContactUs from './ContactUs/ContactUs'
 
 function ListsAndKeys() {
     // const numbers = [1,2,3,4,5];
@@ -32,6 +33,7 @@ function ListsAndKeys() {
     <div>
         {/* <ul>{listValues}</ul> */}
         <ul>{details}</ul>
+        <ContactUs carName="Mahindra" model="2005" />
     </div>
   )
 }
