@@ -33,6 +33,9 @@ function Header() {
           <Link to="/contactus" className="nav-link">ContactUs</Link>
         </li>
         <li className="nav-item">
+          <Link to="/paginationhooks" className="nav-link">PaginationHooks</Link>
+        </li>
+        <li className="nav-item">
           <Link to="/aboutus" className="nav-link">AboutUs</Link>
         </li>
         <li className="nav-item">
