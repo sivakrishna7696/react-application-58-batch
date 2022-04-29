@@ -6,6 +6,7 @@ import ContactUs from '../ContactUs/ContactUs'
 import ListsAndKeys from '../ListsAndKeys'
 import Pagination from '../Pagination/Pagination'
 import PaginationHooks from '../hooks/PaginationHooks'
+import CompA from '../usecontext/CompA'
 
 function RoutesComp() {
   return (
@@ -18,6 +19,8 @@ function RoutesComp() {
         <Route path='/complifecycle' element={<Componentlifecycle />} />
         <Route exact path='/pagination' element={<Pagination />}  />
         <Route exact path='/paginationhooks' element={<PaginationHooks />} />
+        <Route exact path='/usecontext' element={<CompA />} />
+
       </Routes>
     </div>
   )
