@@ -33,6 +33,9 @@ export class Componentlifecycle extends Component {
         this.setState({users:data})
     }
         
+    componentWillUnmount(){
+        console.log("component will unmounnt")
+    }
 
     // componentDidMount()
     componentDidMount(){
