@@ -14,10 +14,12 @@ function App() {
     <div className="App">
       <Header />
       <RoutesComp />
+
+      {/* usereducer */}
       {/* <CounterUseState /> */}
-      <userContext.Provider value={"passing data to compC"}>
+      {/* <userContext.Provider value={"passing data to compC"}>
          <Compc />
-      </userContext.Provider>
+      </userContext.Provider> */}
     </div>
   );
 }

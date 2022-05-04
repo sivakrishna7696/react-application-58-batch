@@ -42,6 +42,9 @@ function Header() {
           <Link to="/aboutus" className="nav-link">AboutUs</Link>
         </li>
         <li className="nav-item">
+          <Link to="/usereducer" className="nav-link">usereducerHooK</Link>
+        </li>
+        <li className="nav-item">
           <a className="nav-link disabled">Disabled</a>
         </li>
       </ul>
